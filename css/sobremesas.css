@@ -1,0 +1,76 @@
+/* Cardápio sobremesas*/
+.Sobremesas {
+  display: inline;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+}
+.Sobremesas img {
+  height: 30vh;
+  border-radius: 10px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.Sobremesas a {
+  background-color: rgba(0, 0, 0, 0.911);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--sobremesas-cor-do-texto);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.Sobremesas a:hover {
+  background-color: rgba(228, 227, 227, 0.911);
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #0a0a0a;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.cabecalho_Sobremesas {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  color: #545454;
+}
+.Sobremesas h3 {
+  color: #545454;
+}
+.Sobremesas p {
+  margin-top: 0, 5rem;
+  margin-bottom: 1, 5rem;
+  color: #949494;
+}
+.Sobremesas h4 {
+  margin-top: 1, 5rem;
+  margin-bottom: 2rem;
+  color: #545454;
+}
+.borda {
+  background: #ffff;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #ebe8e8;
+  text-align: center;
+  margin: 5rem 30rem;
+  border-radius: 2rem;
+}
+.borda:hover {
+  background-color: rgba(228, 227, 227, 0.911);
+  border: 1px solid black;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: #0a0a0a;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
