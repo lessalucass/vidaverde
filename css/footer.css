@@ -1,0 +1,32 @@
+/* Rodapé */
+footer{
+    background-color: black;
+    text-align: center; 
+    margin: 0px 50px 0px 50px;
+    height: 5vh;
+    padding: 2px;
+    border-top-right-radius:20px ;
+    border-top-left-radius: 20px ;
+}
+footer p{
+    color: rgb(163, 161, 161);
+    
+}
+.carrinho{
+    background-color: black;
+}
+.footer__botoes{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.botoes{
+    color:#626262;
+    background: none;
+    border: none;
+    font-family: 'nunito';
+    font-weight: bolder;
+}
+.botao__meio{
+    padding-right: 80px;
+}

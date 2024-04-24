@@ -1,0 +1,23 @@
+body .dark-Mode p {
+  color: white;
+}
+.dark-Mode {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.dark-Mode .rodape {
+  background-color: rgb(255, 255, 255);
+}
+.dark-Mode button {
+  color: black;
+}
+.imagem-botao {
+  height: 3vh;
+  width: 3vh;
+}
+.botao-noturno {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
